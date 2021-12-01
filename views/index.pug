@@ -1,0 +1,69 @@
+doctype html
+html
+  head 
+    title Dance pe Chance Academy
+    style 
+      include ../public/style.css
+  body
+    
+    nav#navbar
+      ul 
+        div#logo
+            img(src="/public/dance_logo.jpg")
+            |DPCA
+        li #[a(href='/')  Home]
+        li #[a(href='/')  Services] 
+        li #[a(href='/')  Class Info]
+        li #[a(href='/')  About]
+        li #[a(href='/')  Contact us] 
+
+    section#intro
+        div|Welcome to Dance pe Chance Academy
+        div#quote|never miss a chance to dance...
+        
+
+    section#mission
+        h2|Our Mission
+        div.card
+          h3 BALLROOM 
+          div.cardbox
+            img(src="/public/ballroom_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 HIP-HOP 
+          div.cardbox
+            img(src="/public/hiphop_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 BOLLYWOOD 
+          div.cardbox
+            img(src="/public/bollywood_logo.png")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 KATHAK
+          div.cardbox
+            img(src="/public/kathak_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+
+    section#sponors
+        h2|Our Sponsors
+        div.sp
+            img(src="/public/s1.png")
+            img(src="/public/s2.jpg")
+            img(src="/public/s3.png")
+            img(src="/public/s4.jpg")
+            img(src="/public/s5.jpg")
+
+    footer#footer 
+        |Copyright © 2021 DancepeChanceAcademy.com
+
+    script 
+      include ../public/index.js

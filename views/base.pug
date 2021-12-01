@@ -1,0 +1,23 @@
+//- Here base.pug is like an unfilled form/format and all other pug files like home,contact just fill this form 
+doctype html 
+html
+  head
+    title Dance pe Chance Academy
+    block scripts
+    block style  
+
+  body
+    nav#navbar
+      ul 
+        div#logo
+            img(src="/public/img/dance_logo.jpg")
+            |DPCA
+        li #[a(href='/')  Home]
+        li #[a(href='/')  Services] 
+        li #[a(href='/')  Class Info]
+        li #[a(href='/')  About]
+        li #[a(href='/contact')  Contact us] 
+
+    block content
+    footer#footer 
+        |Copyright © 2021 DancepeChanceAcademy.com | All right reserved.  

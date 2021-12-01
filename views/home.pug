@@ -1,0 +1,55 @@
+//- extends maning filling this pug file with template defined in base.pug fill
+extends base.pug
+
+block scripts 
+    script(src="/public/index.js")
+
+block style 
+    style 
+        include ../public/style.css
+
+block content 
+    section#intro
+        div|Welcome to Dance pe Chance Academy
+        div#quote|never miss a chance to dance...
+        
+
+    section#mission
+        h2|Our Mission
+        div.card
+          h3 BALLROOM 
+          div.cardbox
+            img(src="/public/img/ballroom_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 HIP-HOP 
+          div.cardbox
+            img(src="/public/img/hiphop_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 BOLLYWOOD 
+          div.cardbox
+            img(src="/public/img/bollywood_logo.png")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+        div.card
+          h3 KATHAK
+          div.cardbox
+            img(src="/public/img/kathak_logo.jpg")
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elite.
+            
+
+    section#sponors
+        h2|Our Sponsors
+        div.sp
+            img(src="/public/img/s1.png")
+            img(src="/public/img/s2.jpg")
+            img(src="/public/img/s3.png")
+            img(src="/public/img/s4.jpg")
+            img(src="/public/img/s5.jpg") 
